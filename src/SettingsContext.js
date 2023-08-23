@@ -1,11 +1,5 @@
 import React from 'react';
+import react from "react";
 
-const SettingsContext = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
-
+const SettingsContext = react.createContext({})
 export default SettingsContext;
